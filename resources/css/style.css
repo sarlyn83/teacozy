@@ -13,7 +13,10 @@ header{
   position: fixed;
   height: 69px;
   width: 100%;
+  top: 0;
+  left: 0;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 .logo{
@@ -53,11 +56,18 @@ a {
 .featured-teas {
   display: flex;
   width: 1000px;
+  padding-left: 100px;
 }
 
 .teas {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.teas div {
+  padding: 10px 10px;
 }
 
 .individual-teas {
