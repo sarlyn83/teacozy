@@ -10,6 +10,7 @@ body {
 header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   height: 69px;
   width: 100%;
@@ -21,6 +22,7 @@ header{
 
 .logo{
   height: 50px;
+  margin-left: 10px;
 }
 
 nav ul {
@@ -38,7 +40,6 @@ a {
   color: seashell;
 }
 
-
 .mission {
   display: flex;
   flex-direction: column;
@@ -46,6 +47,7 @@ a {
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
+  margin-left: 25px;
 }
 
 .mission-statement {
@@ -73,4 +75,37 @@ a {
 .individual-teas {
   width: 300px;
   height: 200px;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+}
+
+.diff-locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diff-locations div {
+  width: 250px;
+  height: 250px;
+  opacity: 1;
+  margin: 20px 20px;
+  background-color: black;
+}
+
+.footer div {
+  height: 200px;
+}
+
+h6 {
+  text-align: left;
+  margin-left: 20px;
 }
